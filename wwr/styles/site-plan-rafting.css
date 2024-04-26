@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rowdies:wght@300&display=swap");
+
+:root {
+  --primary-color: #495728;
+  --secondary-color: #41261b;
+  --accent1-color: #97b152;
+  --accent2-color: #424523;
+
+  --heading-font: "Rowdies", sans-serif;
+  --paragraph-font: "Inter", sans-serif;
+
+  --nav-background-color: var(--secondary-color);
+  --nav-link-color: var(--accent1-color);
+  --nav-hover-link-color: var(--accent2-color);
+  --nav-hover-background-color: var(--primary-color);
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+  font-family: "Rowdies", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+p {
+  font-family: var(--paragraph-font);
+  padding: 25px;
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  font-size: 1.2em;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
