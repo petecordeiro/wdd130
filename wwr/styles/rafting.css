@@ -154,6 +154,104 @@ header nav a {
   object-fit: cover;
 }
 
+/* Contact */
+.text-align-center {
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team img {
+  max-width: 90px;
+}
+
+.team figcaption {
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.team-members figcaption {
+  margin-top: 12px;
+}
+
+.contact-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 3em 0;
+}
+
+.contact-container form {
+  display: grid;
+  padding: 1.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #0101370f, 0 8px 40px #0000000d,
+    0 12px 32px -16px #0101370f;
+}
+
+.contact-container label,
+.contact-container input,
+.contact-container button,
+.contact-container select,
+.contact-container textarea {
+  font-family: system-ui, sans-serif;
+}
+
+.contact-container label {
+  padding: 0 0 0.5rem;
+}
+
+.contact-container input,
+.contact-container select,
+.contact-container textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.contact-container button {
+  margin: 0.5rem 0 0;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  transition: 0.2s all ease-in-out;
+}
+
+.contact-container button:hover {
+  cursor: pointer;
+  background-color: var(--accent2-color);
+}
+
+.contact-container .contact-reason {
+  margin-bottom: 1rem;
+}
+
+.contact-container h3 {
+  margin-top: 0;
+}
+
+.information p {
+  margin: 0 0 1.5rem;
+  padding: 0;
+}
+
+/* Footer */
 footer {
   display: flex;
   justify-content: space-between;
