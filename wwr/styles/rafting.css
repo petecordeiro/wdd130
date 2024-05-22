@@ -200,11 +200,11 @@ header nav a {
     0 12px 32px -16px #0101370f;
 }
 
-.contact-container label,
-.contact-container input,
-.contact-container button,
-.contact-container select,
-.contact-container textarea {
+label,
+input,
+button,
+select,
+textarea {
   font-family: system-ui, sans-serif;
 }
 
@@ -212,9 +212,9 @@ header nav a {
   padding: 0 0 0.5rem;
 }
 
-.contact-container input,
-.contact-container select,
-.contact-container textarea {
+input,
+select,
+textarea {
   padding: 0.5rem;
   font-size: 1.1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -238,17 +238,21 @@ header nav a {
   background-color: var(--accent2-color);
 }
 
-.contact-container .contact-reason {
+.contact-reason {
   margin-bottom: 1rem;
 }
 
-.contact-container h3 {
+.contact-reason h3 {
   margin-top: 0;
 }
 
 .information p {
   margin: 0 0 1.5rem;
   padding: 0;
+}
+
+iframe {
+  border: none;
 }
 
 /* Footer */
